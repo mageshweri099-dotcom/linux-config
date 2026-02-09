@@ -5,7 +5,9 @@ echo "Vicky Fuck Off Start"
 Install_app(){
     if command -v zypper >/dev/null 2>&1;then
         echo "Installing package in Opensuse"
-        sudo zypper install firefox vscode git gh-cli trash-cli zsh btop
+        sudo zypper install firefox vscode git gh-cli trash-cli zsh btop ghostty
+    elif command -v pkg >/dev/null 2>&1;then
+        # TODO: for freebsd
     fi
 }
 
