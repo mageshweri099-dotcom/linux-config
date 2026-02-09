@@ -34,4 +34,3 @@ Main(){
 }
 
 Main
->>>>>>> 1212ef6 (setup addec)
