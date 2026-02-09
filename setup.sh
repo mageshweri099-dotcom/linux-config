@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 echo "Vicky Fuck Off Start"
+sleep 3.0
 
 Install_app(){
     if command -v zypper >/dev/null 2>&1;then
