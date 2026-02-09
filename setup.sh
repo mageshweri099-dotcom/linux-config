@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "Vicky Fuck Off"
+echo "Vicky Fuck Off Start"
 
 Install_app(){
     if command -v zypper >/dev/null 2>&1;then
@@ -31,6 +31,7 @@ Install_config(){
 Main(){
     Install_app
     Zsh_install
+    echo "Vicky Fuck Off Completed"
 }
 
 Main
